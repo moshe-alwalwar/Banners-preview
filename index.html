@@ -1,59 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Banner Preview</title>
-  <style>
-    body {
-      font-family: Arial;
-      background: #f5f5f5;
-      padding: 20px;
-    }
-    .banner {
-      margin-bottom: 30px;
-    }
-    iframe {
-      border: 1px solid #ccc;
-      display: block;
-      margin-bottom: 10px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ad Studio Pro</title>
+<link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<h2>HTML5 Banners</h2>
+<header class="topbar">
+  <h1>Ad Studio Pro</h1>
+  <div class="controls">
+    <input type="text" id="search" placeholder="Search size or campaign...">
+    <select id="campaignFilter"></select>
+  </div>
+</header>
 
-<div class="banner">
-  <p>160x600</p>
-  <iframe src="banners/300x250/index.html" width="300" height="250"></iframe>
+<div id="grid"></div>
+
+<div id="modal" class="modal">
+  <span id="close">&times;</span>
+  <iframe id="modalFrame"></iframe>
+  <div class="meta" id="meta"></div>
 </div>
 
-<div class="banner">
-  <p>300x250</p>
-  <iframe src="banners/300x250/index.html" width="300" height="250"></iframe>
-</div>
-
-<div class="banner">
-  <p>300x600</p>
-  <iframe src="banners/300x250/index.html" width="300" height="250"></iframe>
-</div>
-
-<div class="banner">
-  <p>728x90</p>
-  <iframe src="banners/728x90/index.html" width="728" height="90"></iframe>
-</div>
-
-<div class="banner">
-  <p>300x50</p>
-  <iframe src="banners/728x90/index.html" width="728" height="90"></iframe>
-</div>
-
-<div class="banner">
-  <p>320x50</p>
-  <iframe src="banners/728x90/index.html" width="728" height="90"></iframe>
-</div>
-
-
-
+<script src="script.js"></script>
 </body>
 </html>

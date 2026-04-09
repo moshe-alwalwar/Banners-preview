@@ -1,0 +1,22 @@
+[
+  {
+    "size": "300x250",
+    "campaign": "Summer Sale",
+    "path": "summer/300x250"
+  },
+  {
+    "size": "728x90",
+    "campaign": "Summer Sale",
+    "path": "summer/728x90"
+  },
+  {
+    "size": "160x600",
+    "campaign": "Winter Promo",
+    "path": "winter/160x600"
+  },
+  {
+    "size": "970x250",
+    "campaign": "Winter Promo",
+    "path": "winter/970x250"
+  }
+]
